@@ -4,7 +4,7 @@
  * main - prints  all possible combination of three different digits
  * in ascending order, seperated by a coma followed by a space
  *
- * Retirn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -32,4 +32,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+
 }
