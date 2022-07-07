@@ -3,7 +3,7 @@
 /**
  * main - Print first 50 Fibonacci numbers
  *
- * Retuen: Return 0
+ * Return: Return 0
  */
 int main(void)
 {
