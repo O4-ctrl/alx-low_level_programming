@@ -1,22 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Print all multiple of 3 & 9 below 1024
+ * main - Peint all multiples of 3 & 9 below 1024
  *
- * Returm: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
-int n, sum;
+	int n, sum;
 
-while (n < 1024)
-{
-if ((n % 3) == 0 || (n % 5) == 0)
-{
-sum += n;
+	while (n < 1024)
+	{
+		if ((n % 3) == 0 || (n % 5) == 0)
+		{
+			sum += n;
+		}
+		n++;
+	}
+	printf("%d\n", sum);
+	return (0);
 }
-n++;
-}
-printf("%d\n", sum);
-return (0);
-}
+
