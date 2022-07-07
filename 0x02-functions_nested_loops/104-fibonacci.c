@@ -16,9 +16,9 @@ int main(void)
 	for (c = 0; c < 91; c++)
 	{
 		sum = f + s;
-		printf("%d", sum);
+		printf("%ld", sum);
 		if (c != 97)
-			print(", ");
+			printf(", ");
 		f = s;
 		s = sum;
 	}
