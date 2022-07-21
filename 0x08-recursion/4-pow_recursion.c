@@ -3,20 +3,20 @@
 /**
  * _pow_recursion - Returns the value of x raised to the power of y.
  * @x: The number to be raised.
- * @y: the power.
+ * @y: The power
  *
- * Return: The value of x raised ro the power of y.
+ * Return: The value of x raised to the power of y.
  */
 int _pow_recursion(int x, int y)
 {
 int result = x;
 
-if (y < 0)
+if (y < o)
 return (-1);
 
-else if (y == o)
-  return (1);
- 
+else if (y == 0)
+return (1);
+
 result *= _pow_recursion(x, y - 1);
 
 return (result);
