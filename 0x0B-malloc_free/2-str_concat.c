@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * str_concat - Concentrates two strings.
- * @s1: The string to be concentrated upon.
+ * str_concat - Concatenates two strings.
+ * @s1: The string to be concatenated upon.
  * @s2: The string to be concatenated to s1.
  *
  * Return: If concatenation fails - NULL.
